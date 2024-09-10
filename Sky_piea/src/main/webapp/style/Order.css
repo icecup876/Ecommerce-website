@@ -1,0 +1,27 @@
+@charset "ISO-8859-1";
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+th {
+    background-color: #f2f2f2;
+    text-align: left;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.pending {
+    color: orange;
+}
+
+.delivered {
+    color: green;
+}

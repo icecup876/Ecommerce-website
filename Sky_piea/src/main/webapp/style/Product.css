@@ -1,0 +1,127 @@
+/* Basic body styling */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f0f2f5;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Header styling */
+.main-header {
+	font-weight:bold;
+    background-color: #004d7a; /* Deep blue */
+    color: white;
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.main-header h1 {
+    font-weight: bold;
+    margin: 0;
+    color: white;
+}
+
+/* Buttons in the header */
+.logout-button-container button,
+.main-header a {
+    padding: 8px 16px;
+    margin-left: 10px;
+    background-color: #f44336; /* Red for logout */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.main-header a {
+    background-color: white; /* Bootstrap blue for home button */
+    font-weight: bold;
+}
+
+.logout-button-container button:hover,
+.main-header a:hover {
+    background-color: #d32f2f; /* Darken red for logout hover */
+    opacity: 0.9;
+}
+
+/* Admin panel general styling */
+.admin-panel {
+    margin-top: 30px;
+    background: #ffffff;
+    padding: 20px;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+}
+
+/* Form and table styles */
+.btn-add {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.btn-add:hover {
+    background-color: #45a049;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    text-align: left;
+    padding: 8px;
+}
+
+th {
+    background-color: #f7f7f7;
+}
+
+/* Button styles within table */
+.btn-update, .btn-delete {
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.btn-update {
+    background-color: #f0ad4e; /* Bootstrap yellow */
+}
+
+.btn-delete {
+    background-color: #d9534f; /* Bootstrap red */
+}
+
+.btn-update:hover {
+    background-color: #ec971f;
+}
+
+.btn-delete:hover {
+    background-color: #c9302c;
+}
+
+/* Error and success message styling */
+.error-msg, .success-msg {
+    color: #d9534f; /* Red for error */
+    font-size: 16px;
+    margin: 10px 0;
+}
+
+.success-msg {
+    color: #5cb85c; /* Green for success */
+}
